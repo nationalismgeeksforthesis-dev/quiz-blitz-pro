@@ -1,0 +1,23 @@
+{
+  "name": "quiz-blitz-pro",
+  "version": "1.0.0",
+  "description": "Interactive multiplayer quiz platform with team library",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["quiz", "multiplayer", "educational"],
+  "author": "Foundever",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.0.0",
+    "ws": "^8.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
